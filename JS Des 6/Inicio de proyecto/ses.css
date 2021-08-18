@@ -5,6 +5,22 @@ body {
 
 .carruselcarouselslidecarousel-fade {
     position: relative;
-    padding: 25px;
-    margin: 120px;
+    padding:5rem;
+    margin: 5rem;
 }
+
+
+img {
+    width: 15rem ;
+    height: 20rem ;
+}
+.row row-cols-1 row-cols-md-2 g-4 {
+    padding: 5rem;
+    margin: 5rem;
+}
+
+.carouselslidecarousel-fade {
+    width: 15rem ;
+    height: 40rem ;
+}
+
