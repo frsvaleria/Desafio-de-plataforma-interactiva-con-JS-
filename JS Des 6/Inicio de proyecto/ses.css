@@ -1,26 +1,55 @@
 
-body {
-    background-color: black;
+.background {
+    background-color:rgb(248, 246, 250);
+    padding: 1rem;
+    padding-top: 20px;
 }
 
-.carruselcarouselslidecarousel-fade {
+.carrusel {
     position: relative;
-    padding:5rem;
-    margin: 5rem;
+    padding: 0.5em;
+    margin: 0.5rem;
 }
 
-
-img {
-    width: 15rem ;
-    height: 20rem ;
-}
-.row row-cols-1 row-cols-md-2 g-4 {
+.row card {
     padding: 5rem;
     margin: 5rem;
 }
 
 .carouselslidecarousel-fade {
-    width: 15rem ;
-    height: 40rem ;
+    width: 10rem ;
+    height: 30rem ;
 }
 
+.informa {
+    padding: 2rem;
+    margin: 25px;
+    border: saddlebrown;
+    border-style:double ;
+    color:whitesmoke;
+    background-image: url(img/Diseño\ sin\ título.png);
+    background-repeat: no-repeat;
+}
+
+.row {
+  color: darkorange;
+}
+
+img {
+    height: 500px ;
+    width:500px ;
+}
+
+img .row {
+    height: 200px ;
+    width:200px ;
+}
+
+
+.row :hover {
+    color: rgb(86, 218, 223);
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

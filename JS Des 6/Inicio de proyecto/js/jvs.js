@@ -74,3 +74,24 @@ for (const pasaje of pasajes)
     pasaje.confirmaPaso2();
 
 console.log(producto1);
+
+
+
+//contenedor.classList.add
+
+const targetas = document.getElementById('targetas');
+
+
+targetas.innerHTML = `
+           <div class="col">
+              <div class="card">
+              <img src="img/trelw.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+              <h5 class="card-title">Trelew</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+            additional content. </p>
+              <button type="button" class="btn btn-outline-dark">Añadir al carrito</button>
+    </div>
+</div>
+`
+
