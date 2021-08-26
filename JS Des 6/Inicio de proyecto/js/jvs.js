@@ -94,4 +94,25 @@ targetas.innerHTML = `
     </div>
 </div>
 `
-
+targetas.innerHTML += `
+            <div class="col">
+               <div class="card">
+               <img src="img/las gru.jpg" class="card-img-top" alt="...">
+               <div class="card-body">
+               <h5 class="card-title">San Sebastian</h5>
+               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+            additional content.</p>
+        <button type="button" class="btn btn-outline-dark">Añadir al carrito</button>
+    </div>
+</div>
+</div>
+<div class="col">
+<div class="card">
+    <img src="img/ranch.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+        <h5 class="card-title">Rio Grande</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+            additional content.</p>
+        <button type="button" class="btn btn-outline-dark">Añadir al carrito</button>
+    </div>
+</div> `
