@@ -199,18 +199,24 @@ const mostrarCompra = () => {
 
     Tablebody.innerHTML = ""
 
-    carrito.forEach((viajes)) => {
-    const tr = document.createElement('tr')
-    tr = className = "table-primary"
-    tr.innerHTML = '
+    carrito.forEach((viajes) => {
+
+        const tr = document.createElement('tr')
+        tr = className = "table-primary"
+        tr.innerHTML = `
         < td scope = "row" > { viajes.id }</th >
         <td>{viajes.destino}</td>
         <td>{viajes.calidad}</td>
         <td>{viajes.transporte}</td>
 
-    '
+        `
 
-    tableBody.appendChild(tr)
+        tableBody.appendChild(tr)
+
+
+        $(`#add${viajes.id}`).on(`click,()=> {
+   agregarAlCarrito(viaje.id)
 })
 
-}
+})
+
