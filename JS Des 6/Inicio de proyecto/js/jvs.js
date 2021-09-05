@@ -1,6 +1,6 @@
 //const { Button } = require("react-bootstrap");
 
-const { Container, Table } = require("react-bootstrap");
+const { Container, Table, ListGroup } = require("react-bootstrap");
 
 //let vender = "vender";
 
@@ -21,39 +21,35 @@ alert('Destino de partida chequeado')
 //alert(nombre + 'parte desde' + ciudad)
 
 //let pasaje1 = {
-destino = 'tolhuin',
-    transporte = 'bus',
-    calidad = 'economico',
-}
+//destino = 'tolhuin',
+//  transporte = 'bus',
+// calidad = 'economico',}
 
 //let pasaje2 = {
-destino = 'san sebastian',
-    transporte = 'barco',
-    calidad = 'claseA'
-}
+//destino = 'san sebastian',
+// transporte = 'barco',
+// calidad = 'claseA'}
 
 
 //let pasaje3 = {
-destino = 'cerro sombrero',
-    transporte = 'avion',
-    calidad = 'turista',
-}
+//destino = 'cerro sombrero',
+// transporte = 'avion',
+//calidad = 'turista',}
 
 //let pasaje4 = {
-destino = 'Rio grande',
-    transporte = 'avion',
-    calidad = 'claseA',
-}
+///destino = 'Rio grande',
+// transporte = 'avion',
+//calidad = 'claseA',}
 
 
 //class Pasaje {
-    //constructor(destino, transporte, calidad) {
-       // this.destino = destino;
-        //this.transporte = transporte;
-        //this.calidad = calidad;
-        //this.vendido = false;
-    }
-}
+//constructor(destino, transporte, calidad) {
+// this.destino = destino;
+//this.transporte = transporte;
+//this.calidad = calidad;
+//this.vendido = false;
+//}
+//}
 
 
 
@@ -88,8 +84,6 @@ const targetas = document.getElementById('targetas');
 stockviajes.forEach((viajes) => {
 
 
-
-
     const div = document.createElement('div')
 
 
@@ -97,6 +91,40 @@ stockviajes.forEach((viajes) => {
     div.className = 'card'
     div.style = "width: "
 
+
+
+
+    const lista = dociment.agregarAlCarrito('lista')
+
+    stcockviajes.forEach((viajes) => {
+
+        const div = document.createElement('div')
+
+
+        const div = document.createElement('div')
+        div.className = 'list-group'
+        div.style = "width: "
+    });
+
+
+    lista.innerHTML = `
+    <div class="list-group">
+    <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+        The current link item
+    </a>
+    <a href="#" class="list-group-item list-group-item-action">Buenos Aires - España - Italia</a>
+    <a href="#" class="list-group-item list-group-item-action">Mexico - Peru - Argentina</a>
+    <a href="#" class="list-group-item list-group-item-action">Argentina - sin escala -- Canada </a>
+    <a href="#" class="list-group-item list-group-item-action">Australia - España - Canada</a>
+    <a href="#" class="list-group-item list-group-item-action">Rusia - Portugal - Uruguay</a>
+    <a href="#" class="list-group-item list-group-item-action">Buenos Aires -España - Italia</a>
+    <a href="#" class="list-group-item list-group-item-action">Mexico - sin escala - Rusia</a>
+    <a href="#" class="list-group-item list-group-item-action">Argentina - sin escala -- España </a>
+    <a href="#" class="list-group-item list-group-item-action">Marruecos - sin escala - Canada</a>
+    <a href="#" class="list-group-item list-group-item-action">Francia - Portugal - Chile</a>
+</div>
+    
+    `
 
 
     targetas.innerHTML = `
@@ -181,6 +209,9 @@ stockviajes.forEach((viajes) => {
 
 
 
+
+
+
     Container.appendChild('div')
 
 })
@@ -216,7 +247,5 @@ const mostrarCompra = () => {
 
         $(`#add${viajes.id}`).on(`click,()=> {
    agregarAlCarrito(viaje.id)
-})
-
 })
 

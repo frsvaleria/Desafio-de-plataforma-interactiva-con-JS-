@@ -53,3 +53,12 @@ img .row {
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+
+.list-group :hover {
+ color:rgb(36, 120, 194)
+}
+img .list-group-itemlist-group-item-actionactive {
+    height: 10px;
+    width: 10px;
+}
