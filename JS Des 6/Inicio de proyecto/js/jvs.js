@@ -223,8 +223,10 @@ function agregarAlCarrito(viajesId) {
     let viajes = stockviajes.find((el) => el.id === viajesId)
     carrito.push(viajes)
 
-    mostrarCompra()
+    mostrarCompra('destino' + 'transporte' + 'calidad')
 }
+
+
 
 const mostrarCompra = () => {
 
@@ -238,14 +240,19 @@ const mostrarCompra = () => {
         < td scope = "row" > { viajes.id }</th >
         <td>{viajes.destino}</td>
         <td>{viajes.calidad}</td>
-        <td>{viajes.transporte}</td>
+        <td>{viajes.transporte}</td>`
 
-        `
+
+
 
         tableBody.appendChild(tr)
 
 
-        $(`#add${viajes.id}`).on(`click,()=> {
-   agregarAlCarrito(viaje.id)
-})
+        $(`#add${viajes.id}`).on(click.()=> {
+    agregarAlCarrito(viaje.id)
+}))
 
+
+$('fadeout').click(() => {
+    $('tostada').fadeOut(2000)
+})
