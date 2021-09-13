@@ -1,5 +1,6 @@
 //const { Button } = require("react-bootstrap");
 
+const { default: Button } = require("@restart/ui/esm/Button");
 const { Container, Table, ListGroup } = require("react-bootstrap");
 
 //let vender = "vender";
@@ -250,9 +251,39 @@ const mostrarCompra = () => {
 
         $(`#add${viajes.id}`).on(click.()=> {
     agregarAlCarrito(viaje.id)
-}))
+}
 
 
 $('fadeout').click(() => {
     $('tostada').fadeOut(2000)
+})
+
+
+let contador = 1
+
+const callApiBB = ('cobro') => {
+
+
+    $.get('https://sandbox.api.payulatam.com/payments-api/4.0/service.cgi/${id}', (res) => {
+
+
+        console.log(res[1])
+
+
+        getCobro.innerText = res[1].cobro
+
+        contador++
+
+    })
+
+}
+
+callApiBB(contador)
+
+const agregarAlCarrito = document.getElementById('button-agregarAlCarrito')
+button.addEventListener('click', () => {
+
+    callApiBB(contador)
+
+
 })
