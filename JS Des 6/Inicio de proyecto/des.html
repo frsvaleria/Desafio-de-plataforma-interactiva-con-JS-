@@ -257,32 +257,19 @@
         </div>
     </div>
 
-    <section>
-        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" id="tostada">
-            <div class="toast-header">
-                <img src="..." class="rounded me-2" alt="...">
-                <strong class="me-auto">Aviso</strong>
-                <small></small>
-                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
-            </div>
-            <div class="toast-body">
-                ¡El producto ha sido añadido al carrito!
-            </div>
+    <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="toast-header">
+            <img src="..." class="rounded me-2" alt="...">
+            <strong class="me-auto">Bootstrap</strong>
+            <small>11 mins ago</small>
+            <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
         </div>
-        <div class="tot" role="alert" aria-live="assertive" aria-atomic="true">
-            <div class="paula">
-                <div class="spinner-border text-info" role="status">
-                    <span class="visually-hidden">Esperando...</span>
-                </div>
-                <strong class="me-auto">¡Bienvenido!</strong>
-                <small></small>
-                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
-            </div>
-            <div class="toast-body">
-                ¡Hola! soy Paula de Sale viaje,¿En que te puedo ayudar?
-            </div>
+        <div class="toast-body">
+            Hello, world! This is a toast message.
+        </div>
+    </div>
 
-    </section>
+
 
     <div>
         <h3 id='cobro'></h3>
@@ -290,7 +277,13 @@
     </div>
 
     <script src=" https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    <script src="jvs.js"></script>
+
+    <script src="./js/jvs.js"></script>
+    <script>
+        $($document).ready(function () {
+            $('.toast').toast('show');
+        });
+    </script>
 </body>
 
 </body>
