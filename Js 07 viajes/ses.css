@@ -98,9 +98,48 @@ h5 {
 }
 
 .leCarro {
-    background-image: url(img/care.JPG) ;
-    border-bottom-color: violet;
-    background-color: violet;
-
+    background-image: url(img/carrito.jpg) ;
+    width: 55px;
+    height: 52px;
+    border-radius: 50%;
+    border-style: dotted;
+    border-color: violet;
 
 }
+.modal-container {
+    width: 100%;
+    height: 100 vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color:blueviolet;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .3 s ease of entry;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#modal {
+    width: 400px;
+    height :  500px ;
+    padding :  16 px ;
+    background-color : white;
+    border-radius :  10px ;
+}
+
+.modal-dialog {
+    opacity :  1 ;
+    visibility : visible;
+}
+
+.btnbtn-primary{
+    border :  2px ;
+    color: green;
+}
+.btnbtn-secondary {
+    border:   2px ;
+    color: red;
+}
+

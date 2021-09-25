@@ -7,7 +7,7 @@ let productos = [
         precio: "14590"
     },
     {
-        "id": 2,
+        id: 2,
         destino: "Tolhuin",
         calidad: "turista",
         transporte: "bus",
@@ -57,65 +57,102 @@ let productos = [
     },
     {
         id: 9,
-        destino: "Mexico - Peru - Argentina",
+        destino: "Capilla del Monte",
+        calidad: "expedision",
+        transporte: "",
+        precio: "17500"
+    },
+    {
+        id: 10,
+        destino: "Parque Nacional: El leoncito",
+        calidad: "expedision",
+        transporte: "avion",
+        precio: "17500"
+    },
+    ,
+    {
+        id: 11,
+        destino: "El valle de la Luna",
+        calidad: "expedision",
+        transporte: "avion",
+        precio: "17500"
+    },
+    {
+        id: 12,
+        destino: "Norte con safari",
+        calidad: "expedision",
+        transporte: "avion",
+        precio: "17500"
+    },
+    {
+        id: 13,
+        destino: "Buenos Aires, España, Italia",
         calidad: "turista",
         transporte: "avion",
         precio: "12890"
     },
     {
-        id: 10,
-        destino: "Argentina - sin escala -- Canada",
-        calidad: "primeraClase",
+        id: 14,
+        destino: "Mexico - Peru - Argentina",
+        calidad: "turista",
         transporte: "avion",
         precio: "16580"
     },
     {
-        id: 11,
+        id: 15,
+        destino: "Argentina - sin escala -- Canada",
+        calidad: "primeraClase",
+        transporte: "avion",
+        precio: "14650"
+    },
+    {
+        id: 16,
         destino: "Australia - España - Canada",
         calidad: "turista",
         transporte: "avion",
         precio: "18650"
     },
     {
-        id: 12,
+        id: 17,
         destino: "Rusia - Portugal - Uruguay",
         calidad: "turista",
         transporte: "avion",
         precio: "18000"
     },
     {
-        id: 13,
+        id: 18,
         destino: "Buenos Aires -España - Italia",
         calidad: "turista",
         transporte: "avion",
         precio: "17689"
     },
     {
-        id: 14,
+        id: 19,
         destino: "Mexico - sin escala - Rusia",
+        calidad: "turista",
+        transporte: "avion",
+        precio: "17689"
+    },
+    {
+        id: 20,
+        destino: "Argentina - sin escala -- España",
         calidad: "turista",
         transporte: "avion",
         precio: "15650"
     },
     {
-        id: 15,
-        destino: "Argentina - sin escala -- España",
-        calidad: "turista",
+        id: 21,
+        destino: "Marruecos - sin escala - Canada",
+        calidad: "primeraClase",
         transporte: "avion",
         precio: "16500"
     },
     {
-        id: 16,
-        destino: "Marruecos - sin escala - Canada",
-        calidad: "primeraClase",
-        transporte: "avion",
-        precio: "15000"
-    },
-    {
-        id: 17,
+        id: 22,
         destino: "Francia - Portugal - Chile",
         calidad: "turista",
         transporte: "avion",
         precio: "18900"
     }
+
 ]
