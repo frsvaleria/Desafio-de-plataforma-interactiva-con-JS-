@@ -131,8 +131,11 @@ $('#b17').on('click', function () {
 $('#b18').on('click', function () {
 
     document.getElementById(productos[21])
+
+
     console.log(productos[21])
-})
+});
+
 $('#b19').on('click', function () {
 
     document.getElementById(productos[22])
@@ -143,19 +146,21 @@ $('#b20').on('click', function () {
 
     document.getElementById(productos[20])
     console.log(productos[20])
-})
+});
 
 $('#b21').on('click', function () {
 
     document.getElementById(productos[21])
     console.log(productos[21])
-})
+});
 
 $('#b22').on('click', function () {
 
     document.getElementById(productos[22])
+
+
     console.log(productos[22])
-})
+});
 
 
 
@@ -297,6 +302,6 @@ $('#b22').on('click', function () {
     // async function tenerProductos(productoseleccionado) { }
 
 
-});
+
 
 

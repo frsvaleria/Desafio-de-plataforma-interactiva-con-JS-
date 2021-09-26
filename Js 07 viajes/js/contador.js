@@ -3,18 +3,23 @@ $(document).ready(function () {
 
 
 
-    let contador = 0
-    contador = contador + 1
+    let contador = 0;
 
 
-    function contando() {
+    function contadorAdd() {
         contador += 1;
+
     }
 
 
-    $('.btn btn-warning').click(function () {
+    $("#btn btn-warning").text(contador);
+
+
+    $('button').click(function () {
         contadorAdd();
     });
+
+
 
 
 
